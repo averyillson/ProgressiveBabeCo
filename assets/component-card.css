@@ -84,6 +84,7 @@
 
 .card-information > * + * {
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .card--text-only .card__inner {
@@ -152,6 +153,7 @@
 }
 
 .card__text {
+  text-transform: uppercase;
   margin: 0;
   word-break: break-word;
 }
