@@ -6,6 +6,7 @@
 
 .card + .card-information {
   margin-top: 1.2rem;
+  text-align: center;
 }
 
 .card.card--soft {
@@ -84,7 +85,6 @@
 
 .card-information > * + * {
   margin-top: 0.5rem;
-  text-align: center;
 }
 
 .card--text-only .card__inner {
