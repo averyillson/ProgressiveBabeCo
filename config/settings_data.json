@@ -1,5 +1,18 @@
 {
   "current": {
+    "colors_accent_1": "#297f87",
+    "colors_accent_2": "#df2e2e",
+    "colors_text": "#000000",
+    "colors_outline_button_labels": "#e1701a",
+    "colors_background_2": "#f6d167",
+    "type_header_font": "montserrat_n5",
+    "type_body_font": "montserrat_n4",
+    "sale_badge_color_scheme": "accent-1",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_accent_color": "#297f87",
+    "checkout_button_color": "#297f87",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -31,18 +44,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0"
-        ],
         "settings": {
           "color_scheme": "accent-1",
           "newsletter_enable": true,
