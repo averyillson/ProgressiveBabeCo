@@ -1,10 +1,12 @@
 {
   "current": {
-    "colors_accent_1": "#297f87",
-    "colors_accent_2": "#df2e2e",
+    "colors_solid_button_labels": "#000000",
+    "colors_accent_1": "#f7e7ce",
+    "colors_accent_2": "#297f87",
     "colors_text": "#000000",
-    "colors_outline_button_labels": "#e1701a",
-    "colors_background_2": "#f6d167",
+    "colors_outline_button_labels": "#297f87",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#f7e7ce",
     "type_header_font": "montserrat_n5",
     "type_body_font": "montserrat_n4",
     "sale_badge_color_scheme": "accent-1",
@@ -12,8 +14,9 @@
     "accent_icons": "text",
     "social_instagram_link": "http:\/\/instagram.com\/progressivebabeco",
     "favicon": "shopify:\/\/shop_images\/pbc-website-favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/pbc-website-favicon.png",
     "checkout_input_background_color_mode": "transparent",
-    "checkout_sidebar_background_color": "#fff7ae",
+    "checkout_sidebar_background_color": "#f7e7ce",
     "checkout_accent_color": "#297f87",
     "checkout_button_color": "#297f87",
     "sections": {
