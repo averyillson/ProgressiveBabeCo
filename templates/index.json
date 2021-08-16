@@ -77,7 +77,7 @@
       "settings": {
         "title": "Collections",
         "image_ratio": "portrait",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": true
