@@ -22,19 +22,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "heading": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -44,7 +31,7 @@
           "logo": "shopify:\/\/shop_images\/heading-logo-xlrg.png",
           "logo_width": 250,
           "logo_position": "top-center",
-          "menu": "",
+          "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
         }
