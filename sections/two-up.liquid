@@ -4,14 +4,14 @@
 
 <section class="page-width">
     <div class="two-up-heading">
-        <h2>Insert Section Heading Here</h2>
+        <h2>{{ sections.settings.heading }}</h2>
     </div>
     <div class="two-up grid">
         <div class="grid__item">
-            <img src="" alt="">
+            <img src="{{ sections.settings.twoup_image_one | img_url: '600x' }}" alt="">
         </div>
         <div class="grid__item">
-            <img src="" alt="">
+            <img src="{{ sections.settings.twoup_image_two | img_url: '600x' }}" alt="">
         </div>
     </div>
 </section>
@@ -47,6 +47,11 @@
             "type": "product",
             "id": "twoup_product_two",
             "label": "t.sections.twoup.settings.twoup_product_two.label"
+        }
+    ],
+    "presets": [
+        {
+            "name": "t:sections.twoup.presets.name"
         }
     ]
 }
