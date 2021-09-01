@@ -51,6 +51,19 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "d552f323-9386-49e4-9d42-128e7f29e6a9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/footer-logo-xlrg.png",
+              "image_width": 100,
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "d552f323-9386-49e4-9d42-128e7f29e6a9"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
