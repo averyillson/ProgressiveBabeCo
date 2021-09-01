@@ -1,0 +1,53 @@
+{{ 'section-two-up.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'section-two-up.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<section class="page-width">
+    <div class="two-up-heading">
+        <h2>Insert Section Heading Here</h2>
+    </div>
+    <div class="two-up grid">
+        <div class="grid__item">
+            <img src="" alt="">
+        </div>
+        <div class="grid__item">
+            <img src="" alt="">
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "t:sections.twoup.name",
+    "tag": "section",
+    "class": "twoup-section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "default": "Section Heading",
+            "label": "t:sections.twoup.settings.heading.label"
+        },
+        {
+            "type": "image_picker",
+            "id": "twoup_image_one",
+            "label": "t.sections.twoup.settings.twoup_image_one.label"
+        },
+        {
+            "type": "product",
+            "id": "twoup_product_one",
+            "label": "t.sections.twoup.settings.twoup_product_one.label"
+        },
+        {
+            "type": "image_picker",
+            "id": "twoup_image_two",
+            "label": "t.sections.twoup.settings.twoup_image_two.label"
+        },
+        {
+            "type": "product",
+            "id": "twoup_product_two",
+            "label": "t.sections.twoup.settings.twoup_product_two.label"
+        }
+    ]
+}
+{% endschema %}
