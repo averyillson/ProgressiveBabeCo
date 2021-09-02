@@ -13,10 +13,8 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_image_one": "shopify:\/\/shop_images\/pbc-hero.jpg",
-        "twoup_product_one": "test-product",
-        "twoup_image_two": "shopify:\/\/shop_images\/IMG_1115.jpg",
-        "twoup_product_two": "progressive-okie-tee"
+        "twoup_product_one": "",
+        "twoup_product_two": ""
       }
     },
     "163047280633090b4e": {
