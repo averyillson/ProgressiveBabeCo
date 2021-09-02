@@ -9,16 +9,24 @@
     <div class="two-up grid">
         <div class="grid__item">
             {%- if section.settings.twoup_image_one != blank -%}
-                <img src="{{ sections.settings.twoup_image_one | img_url: '600x' }}" alt="">
+                <a href="{{ sections.settings.twoup_product_one_url }}">
+                    <img src="{{ sections.settings.twoup_image_one | img_url: '600x' }}" alt="">
+                </a>
             {%- else -%}
-                {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                <a href="{{ sections.settings.twoup_product_one_url }}">
+                    {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                </a>        
             {%- endif -%}
         </div>
         <div class="grid__item">
             {%- if section.settings.twoup_image_two != blank -%}
-                <img src="{{ sections.settings.twoup_image_two | img_url: '600x' }}" alt="">
+                <a href="{{ sections.settings.twoup_product_two_url }}">
+                    <img src="{{ sections.settings.twoup_image_two | img_url: '600x' }}" alt="">
+                </a>
             {%- else -%}
-                {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                <a href="{{ sections.settings.twoup_product_two_url }}">
+                    {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                </a>
             {%- endif -%}
         </div>
     </div>
@@ -43,13 +51,23 @@
         },
         {
             "type": "product",
+            "id": "twoup_product_one_url",
+            "label": "Product One"
+        },
+        {
+            "type": "product",
             "id": "twoup_product_one",
-            "label": "Two Up Product"
+            "label": "Two Up Product One"
         },
         {
             "type": "image_picker",
             "id": "twoup_image_two",
             "label": "Two Up Image Two"
+        },
+        {
+            "type": "product",
+            "id": "twoup_product_two",
+            "label": "Two Up Product Two"
         },
         {
             "type": "product",
