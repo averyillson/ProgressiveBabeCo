@@ -8,18 +8,18 @@
     </div>
     <div class="two-up grid">
         <div class="grid__item">
-            <a href="{{ section.settings.twoup_product_one }}">
-                {%- if section.settings.twoup_image_one != blank -%}
-                    <img src="{{ section.settings.twoup_image_one | file_img_url: 'master' }}" alt="">
+            <a href="{{ section.settings.productOne }}">
+                {%- if section.settings.imageOne != blank -%}
+                    <img src="{{ section.settings.imageOne | img_url }}" alt="">
                 {%- else -%}
                     {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }} 
                 {%- endif -%}
             </a>
         </div>
         <div class="grid__item">
-            <a href="{{ section.settings.twoup_product_two }}">
-                {%- if section.settings.twoup_image_two != blank -%}
-                    <img src="{{ section.settings.twoup_image_two | file_img_url: 'master' }}" alt="">
+            <a href="{{ section.settings.productTwo }}">
+                {%- if section.settings.imageTwo != blank -%}
+                    <img src="{{ section.settings.imageTwo | img_url }}" alt="">
                 {%- else -%}
                     {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                 {%- endif -%}
@@ -42,22 +42,22 @@
         },
         {
             "type": "image_picker",
-            "id": "twoup_image_one",
+            "id": "imageOne",
             "label": "Two Up Image One"
         },
         {
             "type": "product",
-            "id": "twoup_product_one",
+            "id": "productOne",
             "label": "Two Up Product One"
         },
         {
             "type": "image_picker",
-            "id": "twoup_image_two",
+            "id": "imageTwo",
             "label": "Two Up Image Two"
         },
         {
             "type": "product",
-            "id": "twoup_product_two",
+            "id": "productTwo",
             "label": "Two Up Product Two"
         }
     ],
