@@ -8,7 +8,7 @@
     </div>
     <div class="two-up grid">
         <div class="grid__item">
-            <a href="{{ section.settings.twoup_product_one_url }}">
+            <a href="{{ section.settings.twoup_product_one }}">
                 {%- if section.settings.twoup_image_one != blank -%}
                     <img src="{{ section.settings.twoup_image_one | img_url }}" alt="">
                 {%- else -%}
@@ -17,7 +17,7 @@
             </a>
         </div>
         <div class="grid__item">
-            <a href="{{ section.settings.twoup_product_two_url }}">
+            <a href="{{ section.settings.twoup_product_two }}">
                 {%- if section.settings.twoup_image_two != blank -%}
                     <img src="{{ section.settings.twoup_image_two | img_url }}" alt="">
                 {%- else -%}
