@@ -13,8 +13,8 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_product_one": "",
-        "twoup_product_two": ""
+        "twoup_product_one": "test-product",
+        "twoup_product_two": "progressive-okie-tee"
       }
     },
     "163047280633090b4e": {
