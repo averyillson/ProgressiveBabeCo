@@ -13,7 +13,8 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_product_one": "",
+        "twoup_image_one": "shopify:\/\/shop_images\/BA0BDF99-B5DE-4C52-9C77-24882F474CE2.jpg",
+        "twoup_product_one": "test-product",
         "twoup_product_two": ""
       }
     },
