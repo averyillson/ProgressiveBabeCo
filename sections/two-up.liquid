@@ -8,18 +8,18 @@
     </div>
     <div class="two-up grid">
         <div class="grid__item">
-            <a href="{{ sections.settings.twoup_product_one_url }}">
+            <a href="{{ section.settings.twoup_product_one_url }}">
                 {%- if section.settings.twoup_image_one != blank -%}
-                    <img src="{{ sections.settings.twoup_image_one | img_url: '600x' }}" alt="">
+                    <img src="{{ section.settings.twoup_image_one | img_url }}" alt="">
                 {%- else -%}
                     {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }} 
                 {%- endif -%}
             </a>
         </div>
         <div class="grid__item">
-            <a href="{{ sections.settings.twoup_product_two_url }}">
+            <a href="{{ section.settings.twoup_product_two_url }}">
                 {%- if section.settings.twoup_image_two != blank -%}
-                    <img src="{{ sections.settings.twoup_image_two | img_url: '600x' }}" alt="">
+                    <img src="{{ section.settings.twoup_image_two | img_url }}" alt="">
                 {%- else -%}
                     {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                 {%- endif -%}
