@@ -13,8 +13,10 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_product_one": "",
-        "twoup_product_two": ""
+        "imageOne": "shopify:\/\/shop_images\/BA0BDF99-B5DE-4C52-9C77-24882F474CE2.jpg",
+        "productOne": "test-product",
+        "imageTwo": "shopify:\/\/shop_images\/IMG_1115.jpg",
+        "productTwo": "progressive-okie-tee-latte"
       }
     },
     "163047280633090b4e": {
@@ -30,8 +32,8 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_product_one": "",
-        "twoup_product_two": ""
+        "productOne": "",
+        "productTwo": ""
       }
     },
     "16304730443eeb095a": {
@@ -47,8 +49,8 @@
       "type": "two-up",
       "settings": {
         "heading": "Section Heading",
-        "twoup_product_one": "",
-        "twoup_product_two": ""
+        "productOne": "",
+        "productTwo": ""
       }
     }
   },
