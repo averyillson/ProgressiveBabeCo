@@ -8,7 +8,7 @@
     </div>
     <div class="two-up grid">
         <div class="grid__item">
-            <a href="/products/{{ section.settings.productOne }}">
+            <a href="{{ section.settings.productOne | prepend: '/products/'  }}">
                 {%- if section.settings.imageOne != blank -%}
                     <img src="{{ section.settings.imageOne | img_url: '512x' }}" alt="">
                 {%- else -%}
@@ -17,7 +17,7 @@
             </a>
         </div>
         <div class="grid__item">
-            <a href="/products/{{ section.settings.productTwo }}">
+            <a href="{{ section.settings.productTwo | prepend: '/products/' }}">
                 {%- if section.settings.imageTwo != blank -%}
                     <img src="{{ section.settings.imageTwo | img_url: '512x' }}" alt="">
                 {%- else -%}
