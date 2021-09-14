@@ -1,18 +1,17 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1631579760c90dde6a": {
+      "type": "custom-video",
       "settings": {
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "custom_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/8724\/0893\/files\/pbco-video-master.mp4?v=1631308745"
       }
     },
     "16304728049cd56356": {
       "type": "two-up",
       "settings": {
-        "heading": "Section Heading"
+        "heading": "Section Heading",
+        "productOne": "",
+        "productTwo": ""
       }
     },
     "163047280633090b4e": {
@@ -27,7 +26,9 @@
     "1630473042630ac070": {
       "type": "two-up",
       "settings": {
-        "heading": "Section Heading"
+        "heading": "Section Heading",
+        "productOne": "",
+        "productTwo": ""
       }
     },
     "16304730443eeb095a": {
@@ -42,12 +43,14 @@
     "16304730699a220d06": {
       "type": "two-up",
       "settings": {
-        "heading": "Section Heading"
+        "heading": "Section Heading",
+        "productOne": "",
+        "productTwo": ""
       }
     }
   },
   "order": [
-    "image_banner",
+    "1631579760c90dde6a",
     "16304728049cd56356",
     "163047280633090b4e",
     "1630473042630ac070",
