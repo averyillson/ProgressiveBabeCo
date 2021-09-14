@@ -1,8 +1,12 @@
 <div class="video-section--custom">
-    <video autoplay muted>
+    <video autoplay muted loop>
         <source src="{{ section.settings.custom_video_url }}" type="video/mp4">
     </video>
 </div>
+
+{% stylesheet %}
+
+{% endstylesheet %}
 
 {% schema %}
 {
