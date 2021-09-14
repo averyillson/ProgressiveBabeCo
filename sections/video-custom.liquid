@@ -1,0 +1,21 @@
+<div class="video-section--custom">
+    <video autoplay muted>
+        <source src="{{ section.settings.custom_video_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Video",
+  "tag": "section",
+  "class": "video-section--custom",
+  "settings": [
+    {
+        "type": "text",
+        "id": "custom_video_url",
+        "label": "Video Url"
+    }
+  ]
+}
+  {% endschema %}
