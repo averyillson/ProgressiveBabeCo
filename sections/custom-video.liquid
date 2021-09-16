@@ -1,16 +1,10 @@
 <div class="video-section--custom">
-    <video autoplay muted loop>
+    <video autoplay muted>
         <source src="{{ section.settings.custom_video_url }}" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
+    <img src="{{ section.settings.fallback_img | img_url }}" alt="{{ section.settings.fallback_alt }}">
 </div>
-
-{% stylesheet %}
-  video {
-    /* override other styles to make responsive */
-    width: 100%    !important;
-    height: auto   !important;
-  }
-{% endstylesheet %}
 
 {% schema %}
 {
@@ -22,12 +16,17 @@
         "type": "text",
         "id": "custom_video_url",
         "label": "Video Url"
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_img",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "text",
+      "id": "fallback_alt",
+      "label": "Image Alt Text"
     }
-  ],
-  "presets": [
-      {
-          "name": "Custom Video"
-      }
   ]
 }
   {% endschema %}
