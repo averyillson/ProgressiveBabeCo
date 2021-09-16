@@ -1,0 +1,12 @@
+@media screen and (min-width: 578px) {
+    .video-hero--fallback-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .video-hero--fallback-img {
+        display: block;
+    }
+}
+
