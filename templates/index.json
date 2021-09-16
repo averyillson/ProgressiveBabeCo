@@ -4,7 +4,7 @@
       "type": "video-hero",
       "settings": {
         "custom_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/8724\/0893\/files\/pbco-video-master.mp4?v=1631308745",
-        "fallback_img": "shopify:\/\/shop_images\/pbco-videofallback.jpg"
+        "fallback_img": "shopify:\/\/shop_images\/pbco-videofallback-mobile.png"
       }
     },
     "16304728049cd56356": {
