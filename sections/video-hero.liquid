@@ -5,7 +5,7 @@
         <source src="{{ section.settings.custom_video_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <img class="video-hero--fallback-img" src="{{ section.settings.fallback_img | img_url }}" alt="{{ section.settings.fallback_alt }}">
+    <img class="video-hero--fallback-img" src="{{ section.settings.fallback_img | img_url: 'master' }}" alt="{{ section.settings.fallback_alt }}">
 </div>
 
 {% schema %}
