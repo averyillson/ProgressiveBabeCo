@@ -56,6 +56,14 @@
         "productOne": "",
         "productTwo": ""
       }
+    },
+    "16321951705c4a7924": {
+      "type": "slider",
+      "settings": {
+        "slideOne": "shopify:\/\/shop_images\/pbco-slider-2.jpg",
+        "slideTwo": "shopify:\/\/shop_images\/pbco-slider-1.jpg",
+        "slideThree": "shopify:\/\/shop_images\/pbco-slider-3.jpg"
+      }
     }
   },
   "order": [
@@ -64,6 +72,7 @@
     "163047280633090b4e",
     "1630473042630ac070",
     "16304730443eeb095a",
-    "16304730699a220d06"
+    "16304730699a220d06",
+    "16321951705c4a7924"
   ]
 }
