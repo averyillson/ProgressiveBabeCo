@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="{{ 'section-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'section-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+<script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
+
+<div class="sliderContainer">
+    <div class="slickSlider">
+        <img src="{{ section.settings.slideOne }}" alt="">
+        <img src="{{ section.settings.slideTwo }}" alt="">
+        <img src="{{ section.settings.slideThree }}" alt="">
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Slider",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "slideOne",
+            "label": "Slide 1"
+        },
+        {
+            "type": "image_picker",
+            "id": "slideTwo",
+            "label": "Slide 2"
+        },
+        {
+            "type": "image_picker",
+            "id": "slideThree",
+            "label": "Slide 3"
+        }                
+    ],
+    "presets": [
+        {
+            "name": "Slider"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+    $('.slickSlider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+    });
+{% endjavascript %}
