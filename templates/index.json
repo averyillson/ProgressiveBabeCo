@@ -1,23 +1,29 @@
 {
   "sections": {
-    "1631762785fda028f2": {
-      "type": "video-hero",
+    "1632186747eac986f5": {
+      "type": "image-banner",
       "settings": {
-        "custom_video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/8724\/0893\/files\/pbco-video-master.mp4?v=1631308745",
-        "fallback_img": "shopify:\/\/shop_images\/pbco-videofallback-mobile.png"
+        "image": "shopify:\/\/shop_images\/QBJ_Header_0.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     },
     "16304728049cd56356": {
       "type": "two-up",
       "settings": {
-        "heading": "Section Heading",
+        "heading": "The Joy Collection",
+        "imageOne": "shopify:\/\/shop_images\/QBJ_Header_1.jpg",
         "productOne": "",
+        "imageTwo": "shopify:\/\/shop_images\/QBJ_Header_3.jpg",
         "productTwo": ""
       }
     },
     "163047280633090b4e": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -27,8 +33,10 @@
     "1630473042630ac070": {
       "type": "two-up",
       "settings": {
-        "heading": "Section Heading",
+        "heading": "The Space Collection",
+        "imageOne": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_1.jpg",
         "productOne": "",
+        "imageTwo": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_3.jpg",
         "productTwo": ""
       }
     },
@@ -51,7 +59,7 @@
     }
   },
   "order": [
-    "1631762785fda028f2",
+    "1632186747eac986f5",
     "16304728049cd56356",
     "163047280633090b4e",
     "1630473042630ac070",
