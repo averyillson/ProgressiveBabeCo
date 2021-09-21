@@ -1,13 +1,5 @@
 {
   "sections": {
-    "16321907729b6f5884": {
-      "type": "slider",
-      "settings": {
-        "slideOne": "shopify:\/\/shop_images\/Top_Header_Photo_2_35264af7-c476-4a3c-98da-d8a7f08fe9a8.jpg",
-        "slideTwo": "shopify:\/\/shop_images\/Top_Header_Photo_3.jpg",
-        "slideThree": "shopify:\/\/shop_images\/Top_Header_Photo_4.jpg"
-      }
-    },
     "1632186747eac986f5": {
       "type": "image-banner",
       "settings": {
@@ -67,7 +59,6 @@
     }
   },
   "order": [
-    "16321907729b6f5884",
     "1632186747eac986f5",
     "16304728049cd56356",
     "163047280633090b4e",
