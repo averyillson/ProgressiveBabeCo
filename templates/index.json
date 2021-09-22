@@ -1,18 +1,7 @@
 {
   "sections": {
-    "16304730443eeb095a": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/3F3A7832.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
-      }
-    },
     "1632186747eac986f5": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/QBJ_Header_0.jpg",
         "desktop_text_box_position": "center",
@@ -21,9 +10,18 @@
         "adapt_height_first_image": false
       }
     },
+    "16304728049cd56356": {
+      "type": "two-up",
+      "settings": {
+        "heading": "The Joy Collection",
+        "imageOne": "shopify:\/\/shop_images\/QBJ_Header_1.jpg",
+        "productOne": "",
+        "imageTwo": "shopify:\/\/shop_images\/QBJ_Header_3.jpg",
+        "productTwo": ""
+      }
+    },
     "163047280633090b4e": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_2.jpg",
         "desktop_text_box_position": "center",
@@ -31,11 +29,41 @@
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
+    },
+    "1630473042630ac070": {
+      "type": "two-up",
+      "settings": {
+        "heading": "The Space Collection",
+        "imageOne": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_1.jpg",
+        "productOne": "",
+        "imageTwo": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_3.jpg",
+        "productTwo": ""
+      }
+    },
+    "16304730443eeb095a": {
+      "type": "image-banner",
+      "settings": {
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "16304730699a220d06": {
+      "type": "two-up",
+      "settings": {
+        "heading": "Section Heading",
+        "productOne": "",
+        "productTwo": ""
+      }
     }
   },
   "order": [
-    "16304730443eeb095a",
     "1632186747eac986f5",
-    "163047280633090b4e"
+    "16304728049cd56356",
+    "163047280633090b4e",
+    "1630473042630ac070",
+    "16304730443eeb095a",
+    "16304730699a220d06"
   ]
 }
