@@ -2,8 +2,8 @@
   "sections": {
     "1632186747eac986f5": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/QBJ_Header_0.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -14,16 +14,13 @@
       "type": "two-up",
       "settings": {
         "heading": "The Joy Collection",
-        "imageOne": "shopify:\/\/shop_images\/QBJ_Header_1.jpg",
         "productOne": "",
-        "imageTwo": "shopify:\/\/shop_images\/QBJ_Header_3.jpg",
         "productTwo": ""
       }
     },
     "163047280633090b4e": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -34,9 +31,7 @@
       "type": "two-up",
       "settings": {
         "heading": "The Space Collection",
-        "imageOne": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_1.jpg",
         "productOne": "",
-        "imageTwo": "shopify:\/\/shop_images\/Spaces_Lifestyle_Header_3.jpg",
         "productTwo": ""
       }
     },
